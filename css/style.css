@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+html,body{
+    font-family: Bebas neue;
+    font-size: 18px;
+    font-weight: normal;
+    height: 100%;
+    /* background: url(../img/overlays/img_0367.jpg); */
+    background: black;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+.logo{
+    padding-top: 20px;
+}
+span{
+    color: tomato;
+    width: fit-content;
+}
+.header{
+    padding: 15px 35px;
+    display: inline-block;
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    float: left;
+    margin-top: -6%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    padding: 1px 20px;
+}
+.menu ul li a:hover{
+    color: tomato;
+}
+
+.name{
+    width: 350px;
+    margin-top: 200px;
+    text-align: right;
+    margin-left: 15px;
+    border-left: 2px solid tomato;
+}
+
+.name h5{
+    color: tomato;
+    font-size: 21px;
+    letter-spacing: 5px;
+}
+
+.name h1{
+    font-size: 90px;
+    letter-spacing: 3px;
+}
+.card-title{
+    color: tomato;
+}
+
+.list-group{
+    color: tomato;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
