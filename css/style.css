@@ -76,7 +76,20 @@ img{
 }
 
 .list-group{
-    color: tomato;
+    color: white;
     padding-bottom: 15px;
     padding-top: 5px;
+}
+
+.list-group-item{
+    background: tomato;
+}
+
+#line{
+    border-right: 1px solid tomato;
+}
+
+#line2{
+    border-bottom: 1px solid tomato;   
+    border-top: 1px solid tomato;
 }
