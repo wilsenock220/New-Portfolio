@@ -93,3 +93,60 @@ img{
     border-bottom: 1px solid tomato;   
     border-top: 1px solid tomato;
 }
+
+.middle{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.button{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #000000;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: tomato;
+    overflow: hidden;
+    position: relative;
+}
+.button i{
+    line-height: 60px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+.button:hover{
+    transform: scale(1.3);
+    color: #000000;
+}
+
+.button::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: tomato;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.button:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top: 90%;
+    }50%{
+        top: 10%;
+        left: -30%;
+    }100%{
+        top: -10%;
+        left: -10%;
+    }
+}
